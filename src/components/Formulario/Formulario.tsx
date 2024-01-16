@@ -30,7 +30,6 @@ const Formulario = () => {
             type="text" 
             placeholder="Insira os nomes dos participantes"
         />
-      </div>
         <button disabled={!nome}>Adicionar</button>
         {mensagemErro && 
           <p 
@@ -40,6 +39,7 @@ const Formulario = () => {
             {mensagemErro}
           </p>
         }
+      </div>
     </form>
   )
 }
